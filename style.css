@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script&family=Lobster&family=Merienda+One&family=Shadows+Into+Light&display=swap');
+
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+}
+header{
+    background-color:#070707;
+    height: 100px;
+    
+}
+nav{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-items{
+    display: flex;
+    list-style-type: none;
+}
+.menu-items a{
+    padding: 15px;
+    font-size: 16px;
+    display: block;
+}
+.profile{
+    text-align: center;
+    width: 1200px;
+    color: white;
+}
+.profile-avatar img{
+    width: 240px;
+}
+.profile-title{
+    font-size: 65px;
+}
+.profile-description{
+    font-size: 25px;
+}
+.profile-container{
+    background-color: #9e087e;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+
+}
+.portfolio{
+    padding-top: 30px;
+}
+.portfolio-title{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
